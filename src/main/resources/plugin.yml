@@ -1,0 +1,4 @@
+name: PetProtector
+version: '${project.version}'
+main: patunki.petprotector.PetProtector
+api-version: '1.20'
