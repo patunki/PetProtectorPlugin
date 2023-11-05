@@ -36,6 +36,5 @@ public final class PetProtector extends JavaPlugin implements Listener {
             catch(Exception ignored) {
 
             }
-
     }
 }
