@@ -36,14 +36,5 @@ public final class PetProtector extends JavaPlugin implements Listener {
     }
 
 
-
-
-
-    @Override
-    public void onDisable() {
-        //System.out.println("PetProtector has stopped.");
-    }
 }
 
-//[16:31:39 INFO]: CraftWolf{owner=null,tamed=false}
-//[16:31:54 INFO]: CraftWolf{owner=CraftPlayer{name=},tamed=true}
