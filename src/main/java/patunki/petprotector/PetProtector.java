@@ -14,10 +14,9 @@ public final class PetProtector extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        System.out.println("Pet Protector starting up.");
         //Thanks to BooyaTheSkeleton on Reddit!
         getServer().getPluginManager().registerEvents(this, this);
-
+        System.out.println("Pet Protector started");
 
     }
 
@@ -29,7 +28,7 @@ public final class PetProtector extends JavaPlugin implements Listener {
                 Tameable a = (Tameable) event.getEntity();
                 if (a.isTamed()){
                     event.setCancelled(true);
-                    System.out.println("Pet avoided damage. Protected by " + Objects.requireNonNull(a.getOwner()).getName() );
+                    System.out.println("A Pet avoided damage. Protected by " + Objects.requireNonNull(a.getOwner()).getName() );
 
                 }
             }
